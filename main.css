@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+main{
+	text-align: center;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #efd7ff;
+}
+
+table{
+	margin: auto;
+	background-color: #008900;
+	border: 5px solid black;
+}
+td{
+	width:54px;
+	height: 54px;
+	border: 1px solid black;
+}
+
+button{
+	background-color: #cb7aff;
+	color: black;
+	font-size: 1.2em;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 0.3em;
+	margin: 0.3em;
+}
+
+.marker{
+	width:54px;
+	height: 54px;	
+}
+
+.player{
+	text-align: right;
+}
+
+.white{
+	background-image: url("white.png");
+    background-repeat: no-repeat;
+	background-position: center;
+}
+ 
+.black{
+	background-image: url("black.png");
+    background-repeat: no-repeat;
+	background-position: center;
+}
+ 
+.blank{
+	background-image: url("blank.png");
+    background-repeat: no-repeat;
+	background-position: center;
+}
+ 
+.possible{
+	cursor: pointer;
+}
+
+.currentPlayer{
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	
+}
+ 
+ 
+caption{
+	color: black;
+	font-size: 2em;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	color: #cb7aff;
+	font-size: 1.2em;
+	font-weight: 700;
+	text-align: center;
+}
+
